@@ -1,0 +1,48 @@
+@import "./css/header";
+@import "./css/main";
+@import "./css/footer";
+@import "./css/media";
+@import "./css/burger";
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: Lexend;
+  font-style: normal;
+  line-height: normal;
+  background-color: #110a1d;
+  max-height: 1000px;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px);
+}
+
+@media (max-width: 1440px) {
+  .center {
+    padding-left: calc(50% - 700px);
+    padding-right: calc(50% - 700px);
+  }
+}
+
+// @media (max-width: 1240px) {
+//   .center {
+//     padding-left: calc(50% - 600px);
+//     padding-right: calc(50% - 600px);
+//   }
+// }
